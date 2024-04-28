@@ -1,5 +1,5 @@
 # JayJayTest
-this test is to validate PLN payment page on tokopedia platform
+this test is to validate PLN payment page and Beli Pulsa page on tokopedia platform
 
 ## pre-requisites
 1. install OpenJDK 1.8. below is one of the ways to do it on mac :

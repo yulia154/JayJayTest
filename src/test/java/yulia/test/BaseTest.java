@@ -11,6 +11,7 @@ public class BaseTest {
     protected void getDriver(){
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
+        //all the tests are failed when using --headless argument
 //        options.addArguments("--headless");
 //        options.addArguments("--window-size=1280,800");
         WebDriverManager.chromedriver().setup();

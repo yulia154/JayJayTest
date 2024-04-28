@@ -18,3 +18,6 @@ Below are the steps to set this project up with Intellij IDEA :
  below is one of the ways to run the project
 
      ./gradlew cucumber
+
+## test result
+<img width="1680" alt="Screenshot 2024-04-28 at 19 20 27" src="https://github.com/yulia154/JayJayTest/assets/75233715/483bb5c1-ee7e-4e8c-bc7f-8d3bf44a9544">

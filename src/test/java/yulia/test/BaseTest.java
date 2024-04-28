@@ -10,9 +10,10 @@ public class BaseTest {
 
     protected void getDriver(){
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
+        options.addArguments("--remote-allow-origins=*");
+//        options.addArguments("--headless");
+//        options.addArguments("--window-size=1280,800");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver(options);
-
     }
 }

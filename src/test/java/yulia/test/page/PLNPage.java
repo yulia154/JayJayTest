@@ -6,9 +6,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
-
-import static org.bouncycastle.oer.its.template.ieee1609dot2.basetypes.Ieee1609Dot2BaseTypes.Duration;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
@@ -19,8 +16,7 @@ public class PLNPage {
     By errorMessage = By.xpath("//*[@id=\"mainLayout\"]/div[1]/div[3]/div[1]/div[2]/div/div/div[5]/div[2]/div/span");
 
 
-    public PLNPage(){
-        WebDriver driver = WebDriverManager.chromedriver().create();
+    public PLNPage(WebDriver driver){
         this.driver = driver;
     }
 

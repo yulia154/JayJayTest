@@ -12,7 +12,7 @@ public class PLNStepDef extends BaseTest {
 
     @Given("user is on pln page")
     public void userIsOnPlnPage() {
-        plnPage = new PLNPage();
+        plnPage = new PLNPage(driver);
         plnPage.goToPLNPage();
     }
     @And("user input nomor token with {string}")

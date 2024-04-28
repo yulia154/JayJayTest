@@ -1,18 +1,18 @@
 package yulia.test.stepdef;
 
-import org.junit.After;
-import org.junit.Before;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import yulia.test.BaseTest;
 
 public class CucumberHooks extends BaseTest {
     @Before
     public void beforeTest(){
         getDriver();
-
     }
 
     @After
-    public void afterClass(){
+    public void afterTest(){
         driver.close();
     }
 }
